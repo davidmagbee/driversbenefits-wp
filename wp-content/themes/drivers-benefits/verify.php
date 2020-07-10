@@ -42,6 +42,9 @@
 						localStorage.setItem('driverVerified', true)
 						window.location = '/employee';
 					}
+					else {
+						alert('Invalid credentials');
+					}
 				})
 				.catch(err => {
 					console.log(err);
