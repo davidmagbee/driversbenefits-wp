@@ -8,6 +8,12 @@
 </head>
 <body <?php body_class();?>>
 	<header>
+		<nav id='nav-main' class='navbar'>
+			<img>DBF-LOGO</img>
+			<div>LOCAL</div>
+			<div>CALL</div>
+			<button>SIGNUP</button>
+		</nav>
 		<?php wp_nav_menu(
 			array(
 				'theme_location' => 'top-menu'
