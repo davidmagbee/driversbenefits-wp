@@ -6,6 +6,7 @@
   <title><?php the_title();?></title>
   <?php wp_head();?>
 </head>
+This is the header...
 <body <?php body_class();?>>
 	<header>
 		<?php wp_nav_menu(
